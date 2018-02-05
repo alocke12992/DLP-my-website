@@ -1,0 +1,556 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  =========================
+  Grid
+  =========================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+
+  }
+
+.main-content {
+  display: block;
+  height: 620px;
+
+}
+
+.main-page {
+  padding: 30px 64px 30px 64px;
+
+}
+
+div {
+  display: block;
+
+
+}
+
+  /*
+    =========================
+    Clear float
+    =========================
+  */
+
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+
+  .group:after {
+    clear: both;
+  }
+
+  .group {
+    clear: both;
+  }
+
+  /*
+    =========================
+    Typography
+    =========================
+  */
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+  font-family: arial, sans-serif;
+  color: gray;
+}
+
+
+body {
+  background: white;
+  color: black;
+}
+
+#search {
+  font: 16px arial,sans-serif;
+    font-size: 30px;
+    line-height: 34px;
+    font-family: arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+h3 {
+color: gray;
+font-family: arial, sans-serif;
+font-size: 24px;
+
+}
+
+h1 {
+  text-align: center;
+font-size: 50px;
+line-height: 60px;
+margin: 0 0 60px;
+
+}
+
+/*
+  =========================
+  buttons
+  =========================
+*/
+
+.div_btn {
+  width: 300px;
+  padding: 10px;
+  margin: 5px auto 50px auto;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f5f5f5;
+	  color: #444;
+	  border: 1px solid #dcdcdc;
+	  border-radius: 2px;
+	  cursor: default;
+	  font-size: 11px;
+	  font-weight: bold;
+	  text-align: center;
+	  height: 35px;
+	  line-height: 35px;
+	  min-width: 100px;
+	  padding: 0 10px 0 10px;
+	  text-decoration: none;
+}
+
+#left {
+  float: left;
+}
+
+a:hover {
+  color: black;
+}
+
+.btn:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 1px;
+}
+
+/*
+  =========================
+  Navigation
+  =========================
+*/
+
+
+
+
+.nav {
+  display: inline-block;
+  text-align: bottom;
+
+}
+
+
+
+.nav a {
+  color: gray;
+  font-family: arial, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+
+
+
+.nav_left {
+    float: left;
+    padding: 40px 5px 40px 5px;
+}
+
+.nav_right {
+
+  float: right;
+  padding: 40px 5px 40px 5px;
+}
+
+.nav_right_face {
+
+  float: right;
+  padding: 33px 5px 30px 5px;
+}
+
+#my_face {
+
+  height: 30px;
+  border-radius: 50%;
+
+}
+
+
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#active {
+  font-size: 18px;
+  text-decoration: underline;
+}
+/*
+  =========================
+  Main Logo
+  =========================
+*/
+
+.center {
+  margin: auto;
+  width: 50%
+}
+
+#main_img {
+  height: 80px;
+  margin-top: 170px;
+
+
+}
+
+/*
+  =========================
+  Search Bar
+  =========================
+*/
+
+.search {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  box-shadow: 1px 1px 8px #888888;
+  width: 485px;
+  height: 45px;
+  margin: auto;
+}
+
+.textbox {
+  display: inline-block;
+  float: left;
+  width: 400px;
+  height: 38px;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+#voice {
+  display: inline-block;
+  float: right;
+  height: 25px;
+  margin: 10px 20px 0 0;
+
+}
+
+/*
+  =========================
+  Footer
+  =========================
+*/
+
+footer {
+  display: block;
+  padding-top: auto;
+}
+
+.primary-footer {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.primary-footer a {
+    color: gray;
+    font-family: arial, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.primary-footer a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*
+  =========================
+  About Me
+  =========================
+*/
+
+.about-img {
+  width: 45%;
+  float: left;
+  display: inline-block;
+}
+
+.abt_content {
+  display: inline-block;
+  width: 45%;
+  float: right;
+
+
+}
+
+.abt_content p {
+font-size: 18px;
+line-height: 25px;
+}
+#abt_img {
+  width: 100%;
+}
+
+/*
+  =========================
+  Contact me
+  =========================
+*/
+
+.contact {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.contact h1 {
+  font-weight: bold;
+}
+
+form {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+input,
+select,
+textarea,
+button  {
+  border: solid lightgray .5px;
+  box-shadow: 1px 1px 5px #888888;
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+
+}
+
+input,
+textarea {
+  cursor: text;
+  color: gray;
+}
+
+textarea {
+  height: 100px;
+}
+
+form div {
+  display: inline-block;
+  padding: 10px 0 10px 0;
+}
+
+button {
+  width: 33%;
+  background-color: lightgray;
+
+}
+
+.label {
+  width: 100%;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.first_name {
+  width: 50%;
+  float: left;
+  padding-right: 5px;
+}
+
+.last_name {
+  width: 50%;
+  float: right;
+  padding-left: 5px;
+}
+
+/*
+  =========================
+  Experience
+  =========================
+*/
+
+.exp-center {
+  margin: auto 0;
+}
+
+.dig {
+  padding: 155px 0 155px 0;
+}
+
+.dig-block {
+  margin: 0 78px 0 78px;
+  padding: 0 17px 17px 17px;
+}
+
+.dig-block h3 {
+    text-align: center;
+    font-family: adobe-garamond-pro;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    text-transform: none;
+    color: white;
+}
+
+.dig-block h1 {
+font-size: 52px;
+font-weight: 400;
+line-height: 1em;
+text-transform: uppercase;
+margin-bottom: 30px;
+color: white;
+}
+
+.download {
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: white;
+    border-radius: 2px;
+    cursor: default;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 20px;
+    }
+
+
+.resume div {
+  display: inline-block;
+  width: 50%;
+  padding: 30px 0 30px 0;
+
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+
+  float: right;
+}
+
+.resume h3 {
+  font-weight: 200;
+  font-size: 26px;
+  letter-spacing: .01em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.resume h4 {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .1em;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.resume h5 {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .1em;
+  line-height: 1.6em;
+}
+
+.resume p {
+  font-size: 14px;
+}
+
+#experience {
+  background-image: url("../photos/speaking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
